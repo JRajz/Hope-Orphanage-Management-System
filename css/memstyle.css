@@ -1,0 +1,50 @@
+
+#tooplate_main {
+	clear: both;
+	width:auto;
+	
+	background: #fff;
+}
+a.more { 
+	clear: both; 
+	display: block; 
+	width: 103px; 
+	height: 30px; 
+	line-height: 30px; 
+	text-align: center; 
+	color: #000; 
+	font-weight: bold; 
+	background: url(../../orphan/images/tooplate_button.png); 
+}
+
+a.more:hover { 
+	text-decoration: none; 
+	color: #fff; 
+}
+.float_r { 
+float:right;
+ }
+
+.col_w960 { width: 1600px; margin-bottom: 30px }
+
+#gallery { 
+	margin: 0; 
+	padding: 0;
+}
+
+#gallery .gallery_box { 
+	display: block; 
+	float: left;
+	width:250px;;
+	height:auto;
+	padding:30px;
+	border: 1px solid #ccc;
+	margin:10px;
+}
+
+
+#gallery .gallery_box a img { 
+	border: 2px solid #ccc; 
+	margin-bottom: 5px; 
+}
+

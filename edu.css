@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-color:#09F;
+}
+.ttlwdth
+{
+	width:870px;
+	height:auto;
+	margin-left:20px;
+	margin-right:20px;
+	background-color:#FFF;
+	float:left;
+}
+.fstdiv
+{
+	width:auto;
+	height:200px;
+	
+	margin-left:10px;
+}
+.edupic
+{
+	margin-left:300px;	
+}	
+.c
+{
+	width:auto;
+	height:900px;
+	margin-left:10px;
+	
+	
+}
+.secdiv
+{
+	width:400px;
+	background-color:#FFF;
+	float:right;
+	margin-right:20px;	
+}
+.clfont
+{
+	padding-left:20px;
+	padding-right:20px;
+	font-size:20px;
+}
+.hmdiv
+{
+	width:100%;
+	height:250px;
+	background-color:#630;
+	
+}
+.hope
+{
+	width:200px;
+	font-size:70px;
+	color:#F60;
+
+
+}
+.hmimg
+{
+	
+	padding:10px;
+	float:left;
+
+}
+.shr
+{
+	width:120px;
+	float:right;
+	padding-right:10px;
+}
+.hmsecdiv
+{
+	height:50px;
+	background-color:#630;
+}
+.space
+{
+	margin-top:50px;
+}

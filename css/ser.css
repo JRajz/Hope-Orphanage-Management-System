@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+/*-- services --*/
+.para span{
+	font-size: 2em;
+    color: #fff;
+    background:#6DBEE8;
+    padding: .8em 0 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 60px;
+    top: 38px;
+    left: 128px;
+    text-align: center;
+}
+.para p{
+	color: #999;
+    font-size: 14px;
+    line-height: 1.8em;
+    margin: 0;
+    border: 1px dashed #E1A20C;
+    padding: 4em 2em 2em;
+    text-align: center;
+}
+.services-grid:hover div.para span{
+	background:#E1A20C;
+}
+.services-grid:hover div.para p{
+	border: 1px dashed #000;
+}
+.col-md-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.contain {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.services-grid {
+		float: left;
+		width: 30%;
+}

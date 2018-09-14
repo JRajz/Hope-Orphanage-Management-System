@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-color:#09F;
+}
+.ttlwdth
+{
+	width:750px;
+	height:auto;
+	margin-left:50px;
+	background-color:#FFF;
+	float:left;
+	margin-right:10px;
+
+}
+.fstdiv
+{
+	width:700px;
+	height:510px;
+	text-align:justify;
+	margin-left:10px;
+	ma
+}
+.edupic
+{
+	margin-left:720px;
+	margin-top:130px;	
+}	
+.secdiv
+{
+	width:700px;
+	height:530px;
+	margin-top:20px;
+	margin-left:10px;
+}
+.thirddiv
+{
+	width:700px;
+	height:640px;
+	margin-top:70px;
+	margin-left:10px;
+}
+.fordiv
+{
+	width:700px;
+	height:250px;
+	margin-top:40px;
+	margin-left:10px;
+}
+.clfont
+{
+	padding-left:20px;
+	padding-right:20px;
+	font-size:20px;
+}
+.imgdiv
+{
+	width:400px;
+	height:auto;
+	background-color:#FFF;
+	float:left;
+	margin-right:10px;
+	padding:20px;
+}
+.space
+{
+	margin-top:50px;
+}

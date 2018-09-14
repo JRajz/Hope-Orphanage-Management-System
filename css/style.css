@@ -1,0 +1,495 @@
+
+h4, h5, h6,
+h1, h2, h3 {margin: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+ font-family: 'Asap', sans-serif;
+   font-size: 100%;
+   background:#fff; 
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  text-decoration: none;
+}
+/*--header start here--*/
+.banner {
+    background: url(../images/books.jpg)no-repeat top;
+    background-size: cover;
+    min-height: 800px;
+}
+.banner1 {
+    background: url(../images/books.jpg)no-repeat top;
+    background-size: cover;
+    min-height:400px;
+}
+.header {
+    padding: 1em;
+    background: #fff;
+}
+.logo h1 {
+    font-size: 2.8em;
+    color:#A0431B;
+    font-family: 'Kreon', serif;
+}
+.details {
+    margin-top:0.5em;
+}
+.addre {
+    float: left;
+    width: 32%;
+    text-align: center;
+}
+.addre.addres-mes {
+    float: right;
+    width: 32%;
+}
+span.location {
+    background: url(../images/pin.png)no-repeat;
+    width: 15px;
+    height:15px;
+    display:block;
+    margin: 0 auto;
+}
+span.tel-ph {
+    background: url(../images/email.png)no-repeat;
+    width:15px;
+    height:15px;
+    display:block;
+    margin: 0 auto;
+}
+span.mess{
+	background: url(../images/telephone.png)no-repeat;
+    width:15px;
+    height: 15px;
+    display:block;
+    margin: 0 auto;
+}
+.addre p {
+    font-size:0.85em;
+    color: #999;
+    display: inline-block;
+}
+.addre p a{
+	color: #999;
+}
+.addre p a:hover{
+	color:#fba919;
+}
+.top-nav {
+    background: #fba919;
+}
+.navbar-nav {
+    float:none !important; 
+    margin: 0;
+}
+.navbar-nav > li {
+    width: 20%;
+    text-align: center;
+}
+div#navbar {
+    padding: 0px !important;
+}
+ul.nav.navbar-nav li a {
+    font-size: 1em;
+    color: #fff;
+   
+    border-bottom: 2px solid #A0431B;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color:#A0431B;
+}
+.banner-bottom {
+    margin-top: 10em;
+    float: right;
+    width: 40%;
+}
+.banner-bottom h2 {
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 1.3em;
+  font-family: 'Kreon', serif;
+}
+.bann-para {
+    margin-top: 3em;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.51);
+}
+.bann-para p {
+    font-size: 0.9em;
+    color:#5B5959;
+    line-height: 1.8em;
+}
+.banner-bottom a {
+    font-size: 0.95em;
+    color: #fff;
+    padding: 0.65em 1em;
+    background:#A0431B;
+    display: block;
+    width:25%;
+    text-align: center;
+   font-family: 'Kreon', serif;
+    border-bottom:3px solid #4E2412;
+}
+.banner-bottom a:hover{
+	 background:#fba919;
+	 text-decoration:none;
+	 border-bottom:3px solid #BA7C10;
+}
+/*--header end here--*/
+/*--welcome  grid start here--*/
+.welcome {
+    padding:5em 0em;
+}
+.wel-top h3 {
+    font-size: 2.2em;
+    color:#A0431B;
+    text-align: center;
+   font-family: 'Kreon', serif;
+}
+.wel-top {
+    margin-bottom:1em;
+}
+.wel-img {
+    float: left;
+    width: 50%;
+    border-radius: 15px;
+    border: 5px solid #fba919;
+}
+.wel-img:hover{
+  border: 5px solid #A0431B;
+   transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+.wel-img img{
+  border-radius: 10px;
+}
+.wel-text {
+    float: right;
+    width: 50%;
+    margin-top:2em;
+    text-align: center;
+}
+.wel-block {
+    margin-top: 4em;
+}
+.wel-text h4 {
+    font-size: 1.3em;
+    color:#000000;
+    margin-bottom: 0.25em;
+    font-family: 'Kreon', serif;
+}
+.wel-text p {
+    font-size: 0.95em;
+    color:#767676;
+    width: 87%;
+    margin: 0 auto;
+    line-height: 1.7em;
+}
+/*--welcome grid end here--*/
+/*--testimonial strat here--*/
+.testimo {
+    background: url(../images/graduation.jpg)no-repeat;
+    background-size: cover;
+    min-height:350px;
+}
+.testimo-main {
+    margin-top: 7em;
+        text-align: center;
+}
+.testimo-main h3 {
+    font-size: 2.5em;
+    color:#fba919;
+    margin-bottom: 0.3em;
+   font-family: 'Kreon', serif;
+}
+.testimo-main p {
+    font-size: 1em;
+    color: #fff;
+    width: 55%;
+    margin: 0 auto;
+    line-height: 1.8em;
+}
+/*--testimonial end here--*/
+/*--galler start here--*/
+.gallery {
+  padding: 4em 0em;
+  background-color:#FFF;
+}
+.gallery-top h2 {
+  font-size: 3em;
+  color:#F00;
+  margin: 0em;
+ font-family: 'Kreon', serif;
+}
+.gallery-grid {
+  margin: 0em 0em 2em 0em;
+}
+.gallery-top {
+  padding: 0em 0em 4em 0em;
+  text-align: center;
+}
+/*----*/
+.col1 figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+	width:auto;
+	
+}
+.col1 figure img {
+	position: relative;
+	display: block;
+}
+
+.features-grids figure figcaption {
+	padding: 2em;
+	color: #fff;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.col1 figure figcaption::before,
+.fcol1 figure figcaption::after {
+	pointer-events: none;
+}
+.col1 figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+figure.effect-bubba {
+	background:#fba919;
+}
+figure.effect-bubba:hover img {
+	opacity: 0.3;
+}
+
+figure.effect-bubba figcaption::before,
+figure.effect-bubba figcaption::after {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s,-webkit-transform 0.35s;	
+	-moz-transition: opacity 0.35s, -moz-transform 0.35s;
+	-o-transition: opacity 0.35s, -o-transform 0.35s;
+	-ms-transition: opacity 0.35s, -ms-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-bubba figcaption::before {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: scale(0,1);
+	-moz-transform: scale(0,1); 
+	-o-transform: scale(0,1);
+	-ms-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+figure.effect-bubba figcaption::after {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-webkit-transform: scale(1,0);
+	-moz-transform: scale(1,0);
+	-o-transform: scale(1,0);
+	-ms-transform: scale(1,0);
+	transform: scale(1,0);
+}
+figure.effect-bubba h4 {
+	padding-top: 21%;
+	-webkit-transition: transform 0.35s;
+	-moz-transition: transform 0.35s;
+	-o-transition: -o-transform 0.35s;
+	-ms-transition: -ms-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,-20px,0);
+	-moz-transform: translate3d(0,-20px,0);
+	-o-transform: translate3d(0,-20px,0);
+	-ms-transform: translate3d(0,-20px,0);
+	transform: translate3d(0,-20px,0);
+	opacity:0;
+	color:#fff;
+	font-family: 'Kreon', serif;
+	font-size: 1.5em;
+}
+figure.effect-bubba h4.gal {
+	padding-top: 25%;
+}
+figure.effect-bubba p {
+	padding: 0.5em 2.5em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-moz-transition: opacity 0.35s, -moz-transform 0.35s;
+	-o-transition: opacity 0.35s, -o-transform 0.35s;
+	-ms-transition: opacity 0.35s, -ms-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	-moz-transform: translate3d(0,20px,0);
+	-o-transform: translate3d(0,20px,0);
+	-ms-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+	color:#fff;
+	line-height: 1.5em;
+	font-size: 0.9em;
+}
+
+figure.effect-bubba:hover figcaption::before,
+figure.effect-bubba:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-bubba:hover h4,
+figure.effect-bubba:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+/*--//welcome--*/
+/*--gallery end here--*/
+/*--media quries start here--*/
+@media(max-width:1440px){
+.course-right a {
+    width: 19%;	
+}
+}
+@media(max-width:1366px){
+.course-right a {
+    width: 22%;
+}
+.course-right {
+    margin-top: 7em;	
+}
+}
+@media(max-width:1280px){
+	
+}
+@media(max-width:1024px){
+.abouttop-right h4 {
+    font-size: 1.3em;
+    margin: 0em 0em 0.2em 0em;
+}	
+.abouttop-right p {
+    font-size: 0.91em;
+}
+.navbar-toggle {
+    background-color: rgb(160, 67, 27);
+}
+.navbar-toggle {
+    float: none;
+}
+.navbar-header {
+    text-align: center;
+     margin-right:0px; 
+}
+.addre p {
+    font-size: 0.75em;
+}
+.banner-bottom a {
+    width: 28%;
+}
+.about-top h2 {
+    margin: 0em 0em 1em 0em;
+}
+.wel-text {
+    margin-top: 1.7em;
+}
+.testimo-main p {
+    width: 60%;
+}
+.course-right p {
+    width: 80%;
+}
+.course-right {
+    margin-top: 8em;
+    padding: 0em 0em 0em 4em;
+}
+.course-right a {
+    width: 25%;
+}
+.banner {
+    min-height: 600px;
+}
+.banner-bottom {
+    margin-top: 3em;
+}
+}
+@media(max-width:991px){
+.logo {
+    float: left;
+    width: 40%;
+}
+.details {
+    float: right;
+    width: 60%;
+}	
+.banner-bottom {
+    width: 50%;
+}
+.wel-img {
+    width: 44%;
+}
+.course-right {
+    margin: 4em 0em;
+}
+.footer-main p {
+    width: 60%;
+}
+.admission-top {
+    margin-bottom: 2em;
+}
+.abouttop-left {
+    width: 65%;
+    margin: 0 auto 1em;
+}
+.team-grid {
+    float: left;
+    width: 50%;
+    margin-bottom: 2em;
+}
+.history-bottom {
+    padding: 0em;
+}
+.history-grids {
+    margin-bottom: 1em;
+}
+.history {
+    margin: 2em 0em 0em 0em;
+}
+.about-main {
+    margin: 0em 0em 2em 0em;
+}
+.col1.gallery-grid {
+    float: left;
+    width: 50%;
+}
+.contact-right {
+    margin-top: 2em;
+}
